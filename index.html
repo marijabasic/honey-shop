@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Honey shop-početna</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="Prodaja meda širom Srbije i regiona, razne vrste meda, šaljemo na kućnu adresu"/>
+		<meta name="keywords" content="Med, bagremov, livadski, lipov, repičin, cvetni, mešai"/>
+		<meta name="author" content="Marija Basić"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="shortcut icon" href="images/zaico2.ico"/>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	</head>
+	<body>
+		<!--gornji heder-->
+		<div id="gornjiHeder">
+			<div class="sredina">
+				<div class="flex">
+					<div id="goreLogovanje">
+						<ul class="flex">
+							<li><a href="#prijava">Prijava</a></li>
+							<li id="linija"><a href="registracija.html">Registrujte se</a></li>
+						</ul>
+					</div>
+					<div id="goreLupa">
+						<form class="example" action="obrada.php" method="post" style="max-width:300px">
+							<input type="text" placeholder="Pretražite.." name="search"/>
+							<button type="button">
+								<i class="fa fa-search"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--heder-->
+		<header>
+			<div class="sredina">
+				<div class="flex">
+					<div id="logo">
+						<p><a href="index.html">Honey</a></p>
+					</div>
+					<nav class="flex">
+						<ul class="flex" id="nav">
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--slajder-->
+		<div id="slajder">
+			<div id="slike">
+				<img src="images/honeyCover.png" alt="med"/>
+				<img src="images/honey2.jpg" alt="slatko koa med"/>
+				<img src="images/honey5.jpg" alt="pčela i med"/>
+				<img src="images/honey6.jpg" alt="pčele" class="aktivna"/>
+			</div>
+		</div>
+		<!--tekst-->
+		<div id="tekstProba">
+			<div class="sredina">
+				<div class="dvaDelaProba">
+					<div class="ikonicaProba">
+						<i class="fa fa-heartbeat"></i>
+					</div>
+					<div class="nekiTekstProba">
+						<p>Evo zašto je med čudesan!
+						Od davnina poznat kao lek, nezaobilazan dodatak toplim napicima, 
+						aktivni učesnik zdrave ishrane. Daje izvor energije,
+						leči zapaljenje grla, jača imunitet, smanjuje
+						alergije, poboljšava kvalitet sna,
+						neutrališe neprijatan zadah, poboljšava varenje,
+						pomaže pri mršavljenju, prijatelj kože i kose </p>
+					</div>
+				</div>
+				<div class="dvaDelaProba dva">
+					<div class="ikonicaProba">
+						<i class="fab fa-hackerrank"></i>
+					</div>
+					<div class="nekiTekstProba">
+						<p>Honey shop je iz Zaječara. Bavi se proizvodnjom, preradom, pakovanjem i distribucijom meda. 
+						Firma je osnovana 2010. godine. Vršimo prodaju meda širom Srbije i regiona, šaljemo na kućnu adresu. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--kartice sa proizvodima-->
+		<div id="proizvodi">
+			<div class="sredina">
+				<div id="naslov"><h1>Proizvodi</h1></div>
+				<div class="flex">
+					<div class="kartica">
+						<img src="images/bagremov1.jpg" alt="bagremov med"/>
+						<div class="opis">
+							<h2>Bagremov</h2>
+							<p>Cena: 800 din</p>
+						</div>
+					</div>
+					<div class="kartica">
+						<img src="images/livadski5.jpg" alt="livadski med"/>
+						<div class="opis">
+							<h2>Livadski</h2>
+							<p>Cena: 750 din</p>
+						</div>
+					</div>
+					<div class="kartica">
+						<img src="images/lipov5.jpg" alt="lipov med"/>
+						<div class="opis">
+							<h2>Lipov</h2>
+							<p>Cena: 850 din</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="kartica">
+						<img src="images/bagremov11.jpg" alt="cvetni med"/>
+						<div class="opis">
+							<h2>Cvetni</h2>
+							<p>Cena: 700 din</p>
+						</div>
+					</div>
+					<div class="kartica">
+						<img src="images/repicin5.jpg" alt="repicin med"/>
+						<div class="opis">
+							<h2>Repičin</h2>
+							<p>Cena: 900 din</p>
+						</div>
+					</div>
+					<div class="kartica">
+						<img src="images/mesani6.jpg" alt="mesani med"/>
+						<div class="opis">
+							<h2>Mešani</h2>
+							<p>Cena: 800 din</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--kako do nas-->
+		<div id="kakoDoNas">
+			<div class="sredina">
+				<div id="naslov"><h1>Kako do nas?</h1></div>
+				<div class="flex">
+					<div id="kontakt">
+						<p><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;061/1234567</p>
+						<p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Zaječar</p>
+						<p><i class="fa fa-bell"></i>&nbsp;&nbsp;&nbsp;08:00-16:00</p>
+						<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;email@gmail.com</p>
+					</div>
+					<div id="mapa">
+						<img src="images/zajecar2.png" alt="mapaZajecara"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--prijava-->
+		<div id="prijava">
+			<div class="sredina">
+				<div id="naslov"><h1>Prijavite se</h1></div>
+				<div id="formaPrijava">
+					<form action="obrada.php" method="post" id="formaZaPrijavu">
+						<div id="prviRed">
+							<div class="poljePrijava">
+								<label>Ime: <span id="porukaIme"></span></label>
+								<input type="text" placeholder="Unesite ime" id="prijavaIme"/>
+							</div>
+							<div class="poljePrijava">
+								<label>Prezime: <span id="porukaPrezime"></span></label>
+								<input type="text" placeholder="Unesite prezime" id="prijavaPrezime"/>
+							</div>
+						</div>
+						<div id="drugiRed">
+							<input type="button" value="Prijavi se" id="btnPrijava"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--futer-->
+		<footer>
+				<div id="prikaz">
+					<input type="button" id="btnPrikazi" value="Prikaži više"/>
+				</div>
+				<div id="prikaziVise">
+					<div id="izmedju">
+						<div class="kolone">
+							<h1>Linkovi menija</h1>
+							<ul id="kolonaLinkMeni">
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="kolone kol">
+							<h1>Fa fa</h1>
+							<ul id="fafa">
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="kolone">
+							<h1>Proizvodi</h1>
+							<ul id="kategorije">
+								<li id="kategorijeLI">Proizvodi:
+									<ul class="podlista">
+										<li>Bagremov</li>
+										<li>Livadski</li>
+										<li>Lipov</li>
+										<li>Cvetni</li>
+										<li>Repičin</li>
+										<li>Mešani</li>
+									</ul>
+								</li>
+								<li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="cistac"></div>
+					</div>
+					<div id="dole">
+						<p>Copyright<a href="autor.html">&nbsp;Marija Basić 127/17</a></p>
+					</div>
+				</div>
+			</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/mojaSkripta.js"></script>
+		<script type="text/javascript" src="js/jQuery.js"></script>
+	</body>
+</html>

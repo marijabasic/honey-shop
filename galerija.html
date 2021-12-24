@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Honey shop - galerija</title>
+		<link href="css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="Prodaja meda širom Srbije i regiona, razne vrste meda, šaljemo na kućnu adresu"/>
+		<meta name="keywords" content="Med, galerija, slike"/>
+		<meta name="author" content="Marija Basić"/>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="shortcut icon" href="images/zaico2.ico"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		
+
+	</head>
+	<body>
+		<!--gornji heder-->
+		<div id="gornjiHeder">
+			<div class="sredina">
+				<div class="flex">
+					<div id="goreLogovanje">
+						<ul class="flex">
+							<li><a href="index.html">Prijava</a></li>
+							<li id="linija"><a href="registracija.html">Registrujte se</a></li>
+						</ul>
+					</div>
+					<div id="goreLupa">
+						<form class="example" action="obrada.php" method="post" style="max-width:300px">
+							<input type="text" placeholder="Pretražite.." name="search"/>
+							<button type="button">
+								<i class="fa fa-search"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--heder-->
+		<header>
+			<div class="sredina">
+				<div class="flex">
+					<div id="logo">
+						<p><a href="index.html">Honey</a></p>
+					</div>
+					<nav class="flex">
+						<ul class="flex" id="nav">
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--galerija-->
+		<div id="galerija">
+		</div>
+		<!--futer-->
+			<footer>
+				<div id="prikaz">
+					<input type="button" id="btnPrikazi" value="Prikaži više"/>
+				</div>
+				<div id="prikaziVise">
+					<div id="izmedju">
+						<div class="kolone">
+							<h1>Linkovi menija</h1>
+							<ul id="kolonaLinkMeni">
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="kolone kol">
+							<h1>Fa fa</h1>
+							<ul id="fafa">
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="kolone">
+							<h1>Proizvodi</h1>
+							<ul id="kategorije">
+								<li id="kategorijeLI">Proizvodi:
+									<ul class="podlista">
+										<li>Bagremov</li>
+										<li>Livadski</li>
+										<li>Lipov</li>
+										<li>Cvetni</li>
+										<li>Repičin</li>
+										<li>Mešani</li>
+									</ul>
+								</li>
+								<li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							</ul>
+							<div class="cistac"></div>
+						</div>
+						<div class="cistac"></div>
+					</div>
+					<div id="dole">
+						<p>Copyright<a href="autor.html">&nbsp;Marija Basić 127/17</a></p>
+					</div>
+				</div>
+			</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/mojaSkriptaGalerija.js"></script>
+		<script type="text/javascript" src="js/jQuery.js"></script>
+		<script src="js/lightbox.min.js"></script>
+	</body>
+</html>
